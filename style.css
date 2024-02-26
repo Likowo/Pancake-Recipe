@@ -1,5 +1,40 @@
 /** CSS synthax and CSS declaration**/
 
-/* body {
-  /Background-color: pink;
-} */
+body, p {
+  background-color:lightpink;
+  color: navy;
+  text-align:center;
+  font-family:Comic Sans MS; 
+}
+
+p {
+ font-size:24px;
+}
+
+
+img {
+  border:solid;
+  width:500px;
+  border-radius:20px
+}
+
+a {
+ text-align:right;
+  color: green;
+  display:flex;
+}
+
+
+h1 {
+  font-size:34px;
+  font-weight:bold;
+}
+
+h2, ul, ol {
+  text-align:left;
+}
+
+ol {
+  font-size:24px;
+
+}
