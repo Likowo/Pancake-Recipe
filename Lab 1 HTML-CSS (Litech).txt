@@ -1,0 +1,24 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title> Lab 1 HTML/CSS (Litech)</title>
+    </head>
+    <body>
+        <h1> Cameronian Pancake</h1>
+        <p> Cameroonian pancakes are soft,fluffy and absolutely delicious!! 
+            They look like crepes but are thicker and they are different from American pancakes. With only 8 ingredients and 3 simple steps, you got a yummy breakfast/travel meal for the entire family. 
+        </P>
+        <img src="https://www.preciouscore.com/wp-content/uploads/2017/09/African-pancakes-recipe.jpg">
+        <h2> Ingredients:</h>
+            <ul>
+                <li>2 cups flour (250 grams or 1/4 kg)</li>
+                <li>1/2 cup granulated sugar (100 grams)</li>
+                <li>3 eggs</li>
+                <li>1 cup liquid milk (240ml)</li>
+                <li>1/4 teaspoon salt</li>
+                <li>1 cup warm water</li>
+                <li>1 1/2 teaspoons vanilla extract substitute with half a teaspoon of ground nutmeg</li>
+                <li>3 tablespoons oil</li>
+            </ul>
+    </body>
+</html>
