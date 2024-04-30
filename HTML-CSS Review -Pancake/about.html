@@ -1,36 +1,75 @@
 <!Doctype html>
 <html lang="en">
   <head>
- <title>About Us</title>
- <meta name="author" content="Ann Likowo Molinge">
+    <title>About Us</title>
+    <meta name="author" content="Ann Likowo Molinge">
+    <link rel="stylesheet" href="style.css">
   </head>
+  
   <body>
     <h1>ABOUT US</h1>
+    <a href="#bottompg">Jump to Bottom Page</a>
+
     <P>Welcome to Litech! we are a web develoment company helping you showcase your business ( big or small) through beautifull, engaging websites. We also offer easy to follow training courses for those interested in building a career in the tech industry. Our products and services are of excellent quality and affordable cost. Reach out via chat or email us. We are here to help scale up your business and/or help you develope great new skills.
     </P>
-  <!-- Outside of card -->
-    <p> A gift for you</p>
 
-    <img src="images/gift.png.gif" >
+    <!-- Outside of card -->
+  <!-- Add image using relative link -->
+  <!-- <button id="showGiftCardBtn"  onclick="changeImage()">
+    Open Me
+  </button> -->
+  <button id="showGiftCardBtn"  onclick="showCode()">
+    Open Me
+  </button>
+  
+    <img id="discountCode" src="images/gift.png.gif" alt="letters and numbers on a white background"  class="code">
+  
+  
 
-    <button> Open me</button>
 
-   <!-- Inside of card -->
-    <p>Thank you for your business!</p>
+    <!-- <img id="gifCardImg" src="images/gift.png.gif" style="display: none;" > -->
+<!-- 
+  <div class="yourGift">
+    <div class="firtsImage">
+      <img id="gifCardImg" src="images/gift.png.gif"  class="giftCard"  style="display: none;" >
 
-    <img src="images/discountcode.png.jpg" alt="letters and numbers on a white background">
-    <P>Photo by Mike Hindle on Unsplash</P>
+    </div>
+   
+   <div>
+    <img id="discountCode" src="images/discountcode.png.jpg" alt="letters and numbers on a white background"   class="code">
+  </div>
+  </div> -->
 
-    <p>Use this code and get a 10% off any of our products or services</p>
+  
 
+  <!-- To simulate opening the card, place the next image (code image) as a background image using CSS -->
+  
+  
+  <!-- <p>Thank you for your business!</p> -->
+  <!-- Add image using relative link -->
+
+
+    
+  
+  
+  <!-- <button id="showCodeImage"> Open Me </button> -->
+
+  
+  <!-- <P id="Photoattribute">Photo by Mike Hindle on Unsplash</P> -->
+  <!-- <p>Use this code and get a 10% off any of our products or services</p> -->
+  
+
+
+      
+    <!-- Button with anchor tag to take us back to product page -->
     <button><a href="products.html">Back to Products</a></button>
 
-
-
-
     <hr>
+    
+    <a href="#">Jump to Top page</a> <br>
+    <a href="products.html">Back to Products</a> 
+    <div id="bottompg"></div>
 
-    <a href="products.html">Back to Products</a>
-
+    <script   src="script.js"></script>
   </body>
 </html>

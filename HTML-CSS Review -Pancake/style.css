@@ -14,7 +14,7 @@ p {
 
 img {
   border:solid;
-  width:500px;
+  width:200px;
   border-radius:20px
 }
 
@@ -37,5 +37,34 @@ h2, ul, ol {
 
 ol {
   font-size:24px;
-
 }
+
+.yourGift {
+  display:flex;
+}
+
+.code{
+  border:solid purple;
+  height: 200px;
+  width:200px;
+  display: block;
+ margin-left: 750px;
+  /* background-image: url("images/discountcode.png.jpg"); */
+}
+
+.visible {
+  display:block;
+}
+
+.disappear {
+  display: none;
+}
+
+#discountCode {
+  /* display: none; */
+  border:solid black;
+  width: 200px;
+  height: 200px;
+  /* background-image: url("images/discountcode.png.jpg"); */
+}
+
